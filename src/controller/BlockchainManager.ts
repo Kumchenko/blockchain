@@ -53,7 +53,6 @@ class BlockchainManager {
 
     saveAll() {
         const persistData = this.blockchain.getAll()
-        console.log(persistData)
         this.writeToStorage(JSON.stringify(persistData))
     }
 
