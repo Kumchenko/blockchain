@@ -1,0 +1,25 @@
+{
+    "name": "blockchain",
+    "version": "1.0.2",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "dev": "node-dev index.ts",
+        "build": "npm i",
+        "start": "ts-node index.ts",
+        "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
+    },
+    "author": "Kyrylo Kumchenko",
+    "license": "ISC",
+    "dependencies": {
+        "@types/readline-sync": "^1.4.7",
+        "node-dev": "^8.0.0",
+        "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+        "@types/node": "^20.6.0",
+        "prettier": "^3.0.3",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    }
+}
